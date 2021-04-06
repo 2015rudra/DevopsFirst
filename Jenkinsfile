@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("2015rudra/DevopsFirst")
+        app = docker.build("2015rudra/devopsfirst")
     }
 
     stage('Test image') {
